@@ -118,7 +118,7 @@ const CheckboxGroup: React.FC<Props> = memo((props: Props) => {
               group.map((option: Option, idx) => (
                 <label key={`${option.label}_${idx}`}>
                   <input 
-                    type="checkboxGrCheckboxGroup" 
+                    type="checkbox" 
                     value={option.value} 
                     checked={checked.includes(option.value)}
                     onChange={() => handleChange(option.value)}
