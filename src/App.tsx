@@ -2,6 +2,7 @@ import Checkbox, { OptionValue } from './components/CheckboxGroup'
 import { MOCK_DATA } from './components/CheckboxGroup/data'
 import './App.css'
 
+
 function App() {
   const handleChange = (values: OptionValue[]) => {
     console.log(values)
